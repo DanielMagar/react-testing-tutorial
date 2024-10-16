@@ -1,5 +1,5 @@
 // pokemonApi.test.js
-import { getPokemon } from "./Pokemon";
+import { getPokemon } from "../Components/Pokemon";
 
 // Mock the global fetch function
 global.fetch = jest.fn();

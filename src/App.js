@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PokemonList from "./Components/PokemonList"
+import PokemonComponent from './Components/PokemonComponent';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <article>
         The Article
         <PokemonList/>
+        <PokemonComponent/>
       </article>
      </header>
      <div>

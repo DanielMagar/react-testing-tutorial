@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import PokemonList from "./PokemonList";
-import PokemonApi, { getPokemon } from "./PokemonApi";
+import PokemonList from "../Components/PokemonList";
+import PokemonApi, { getPokemon } from "../Components/PokemonApi";
 import axios from "axios";
 
 // jest.mock("./PokemonApi", () => ({

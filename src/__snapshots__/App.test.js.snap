@@ -20,6 +20,9 @@ Object {
                  Abilities
               </h4>
             </div>
+            <div>
+              Loading...
+            </div>
           </article>
         </header>
         <div />
@@ -40,6 +43,9 @@ Object {
                 CHARIZARD
                  Abilities
               </h4>
+            </div>
+            <div>
+              Loading...
             </div>
           </article>
         </header>
@@ -62,6 +68,9 @@ Object {
               CHARIZARD
                Abilities
             </h4>
+          </div>
+          <div>
+            Loading...
           </div>
         </article>
       </header>

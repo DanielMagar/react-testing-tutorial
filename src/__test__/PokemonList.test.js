@@ -5,12 +5,12 @@ import {
   screen,
   waitFor,
 } from "@testing-library/react";
-import PokemonList from "./PokemonList";
-import PokemonApi, { getPokemon } from "./PokemonApi";
+import PokemonList from "../Components/PokemonList";
+import PokemonApi, { getPokemon } from "../Components/PokemonApi";
 import { toBeInTheDocument } from "@testing-library/jest-dom/matchers";
 
 
-jest.mock("./PokemonApi", () => ({
+jest.mock("../Components/PokemonApi", () => ({
   getPokemon: jest.fn(),
 }));
 
