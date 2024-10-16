@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPokemon should fetch Pokémon data successfully 1`] = `
+Object {
+  "abilities": Array [
+    Object {
+      "ability": Object {
+        "name": "blaze",
+      },
+    },
+    Object {
+      "ability": Object {
+        "name": "solar-power",
+      },
+    },
+  ],
+  "name": "charizard",
+}
+`;
